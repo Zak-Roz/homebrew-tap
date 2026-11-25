@@ -36,6 +36,9 @@ cask "clean-my-mac" do
     The first time you open it, macOS blocks it: open
       System Settings > Privacy & Security
     and click "Open Anyway" next to the message about clean-my-mac.
+    Do this before you use `cmm`: until then macOS stops it at once,
+    without output ("killed", exit status 137). If `cmm` is still
+    stopped after that, allow it in the same place.
 
     Give it Full Disk Access (System Settings > Privacy & Security >
     Full Disk Access), or it cannot measure the Trash or clean protected
