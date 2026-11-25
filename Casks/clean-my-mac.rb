@@ -1,6 +1,6 @@
 cask "clean-my-mac" do
-  version "0.1.0"
-  sha256 "58f33097f1a1c77f08db1e5f46b742a34f2bf73a0ca4e2bf3adbee85c15057ad"
+  version "0.2.0"
+  sha256 "9029524cfc599718cd8827bdb5f56f95cff51f8a2a36b0491cb5798d48d48111"
 
   url "https://github.com/Zak-Roz/clean-my-mac/releases/download/v#{version}/clean-my-mac.zip"
   name "clean-my-mac"
